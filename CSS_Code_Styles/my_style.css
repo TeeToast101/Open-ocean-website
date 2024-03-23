@@ -1,0 +1,85 @@
+:root{
+    /*color*/
+    --white : #ffffff;
+    --light_blue : #79A6CF;
+    --blue :  #002736 ;
+    --black : #000000;
+    --sea_blue : #6094A1;
+    /*fontweight*/
+    --regular-fontweight:400;
+    /*fontsize*/
+    --Title:4rem;
+    --Zone:1.78rem;
+    --Sub_title:1.69rem;
+    --Text:1.5rem;
+}
+
+body {
+    margin: 0;
+    background-color: var(--light_blue);
+    box-sizing: border-box;
+}
+
+main {
+    font-family: "Alata",Arial,sans-serif;
+    padding-left: 1rem;
+}
+
+h1 {
+    font-family: "Oxygen",Arial,sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    text-align: center;
+    font-size: var(--Title);
+    color: var(--white);
+    background-color: var(--blue);
+    margin: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 2.5rem;
+}
+
+header{
+    background-color: var(--blue);
+}
+
+ul {
+    font-family: "Oxygen",Arial,sans-serif;
+    line-height: 2;
+
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    align-items: end;
+    padding-bottom: 1rem;
+    margin-top: 0;
+  
+    list-style: none;
+}
+
+ul a {
+    font-size: var(--Zone);
+    font-weight: var(--regular-fontweight);
+    text-decoration: none;
+    color : var(--white);
+    padding: 1rem 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: var(--sea_blue);
+}
+
+h2 {
+    font-weight: 400;
+    font-size: var(--Sub_title);
+    line-height: 1;
+}
+
+p {
+    font-weight: 400;
+    font-size: var(--Text);
+    line-height: 1.5;
+    max-width: 90ch;
+}
+
+a[aria-current="page"] {
+    padding-top: 2rem;
+}
